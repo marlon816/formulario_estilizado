@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos Online Grátis</title>
+    <script src="js/validacao de data de nascimento.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="efeito-paralax-1"></div>
+    <header>
+        <nav>
+            <div class="dropdown">
+                <img src="imagem/menu.png" class="menu">
+                <div class="dropdown-content">
+                  <a href="#">Inscreva - se</a>
+                  <a href="#">Cursos Gratuitos</a>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <div class="efeito-paralax-2">
+        
+    </div>
+    
+    
+   
+    <section class="mosaico">
+        <h1>Cursos Onlines Grátis</h1>
+        <br>
+    <ul>
+        <li><img src="imagem/curso de analise.jpg"></li>
+        <li><img src="imagem/banco de dados.jpg"></li>
+        <li><img src="imagem/curso de redes.jpg"></li>
+    </ul>
+    <br><br>
+    <ul>
+        <li><img src="imagem/engenharia software.jpg"></li>
+        <li><img src="imagem/programaçao.jpg"></li>
+    </ul>
+</section>
+
+    
+        
+    </div>
+    <section class="formulario">
+    
+    <form action="" method="POST">
+        <h1>cadastro do cursos</h1>
+        <label for="nome_do_aluno">Nome:</label>
+        <input placeholder="Digete o nome completo" id="nome_do_aluno" name="nome_do_aluno" minlength="15" autofocus required="required">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Digete seu email" id="email" name="email" minlength="15" required="required">
+        <br>
+        <label for="nascimento">data do nascimento:</label>
+        <input type="date" id="nascimento" name="nascimento" required="required">
+        <br>
+        <label for="genero">Sexo:</label>
+        <select id="genero">
+            <option value="m" for>masculino</option>
+            <option value="f">feminino</option>
+        </select>
+        <br><br><br>
+        <h2>Estado Cível</h2>
+        <br>
+        <select id="estado_civel">
+            <option  value="solteiro">solteiro</option>
+            <option  value="casado">casado</option>
+            <option  value="divorciado">divorciado</option>
+        </select>
+        <br><br><br>
+        <h2>Cursos da área de interesse</h2>
+        <input type="checkbox" id="curso" name="curso_de_analise" value="curso_de_analise"><label for="curso_de_analise">Curso de análise de sistema</label><br>
+        <input type="checkbox" id="curso" name="curso_de_banco_de_dados" value="curso_de_analise_banco_de_dados" ><label for="curso_de_banco_de_dados">Curso de banco de dados</label><br>
+        <input type="checkbox" id="curso" name="curso_de_redes" value="curso_de_redes"><label for="curso_de_redes">Curso de Redes de computadores</label><br>
+        <input type="checkbox" id="curso" name="curso_de_desenvolvimento_de_sistema" value="curso_de_desenvolvimento_de_sistema"><label for="curso_de_desenvolvimento_de_sistema">Curso de desenvolvimento de sistema</label><br>
+        <input type="checkbox" id="curso" name="curso_de_engenharia_software" value="curso_de_engenharia_software"><label for="curso_de_engenharia_software">Curso de engenharia de software</label><br>
+
+        <div>
+            <input type="submit" value="Enviar" id="enviar"> 
+        </div>
+    </form>
+</section>
+<div class="efeito-paralax-3"></div>
+<footer>
+
+    <h3>Autor: Marlon da Silva Gomes</h3>
+</footer>
+
+</body>
+</html>

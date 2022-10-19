@@ -1,0 +1,1092 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/*efeito paralax*/
+.efeito-paralax-1{
+  background-image: url(../imagem/binario.jpg);
+  background-attachment: fixed;
+  width: 100%;
+  height:688px;
+  background-size: cover;
+  
+}
+.efeito-paralax-2{
+background-image: url(../imagem/binario2.png);
+background-attachment: fixed;
+width: 100%;
+height:1480px;
+background-size: cover;
+
+
+}
+
+
+
+header nav{
+  width: 100%;
+  height: 50px;
+  background-color: aqua;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transition: step-end;
+  
+}
+img.menu{
+position: relative;
+top: -10px;
+
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  left: 50%;
+  top: 10%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(247, 247, 247,0.2);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-decoration: none;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-decoration: none;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #59fdef}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #ffffff;
+  color:black;
+  transition: 2s;
+  border: 1px solid black;
+}
+/*animacao*/
+
+@keyframes example {
+  from {background-color: aqua;}
+  to {background-color: white;}
+ 
+}
+@keyframes example2 {
+  from {background-color: aqua;}
+  to {background-color: rgba(0,0,0,0.6);}
+ 
+}
+@keyframes example3 {
+  from {border-color: aqua;box-shadow: 2px 2px 2px aqua;}
+  to {border-color:white;box-shadow: 2px 2px 20px aqua;}
+ 
+}
+@keyframes example4 {
+  from {color:white;}
+  to {color:aqua;}
+ 
+}
+@keyframes formulario1 {
+  from {color:white;}
+  to {color:aqua;}
+ 
+}
+@keyframes formulario2 {
+  from {color: aqua;}
+  to {color: white;}
+ 
+}
+@keyframes formulario2 {
+  from {color: aqua;}
+  to {color: white;}
+ 
+}
+@keyframes formulario3 {
+ 0%{text-shadow: 5px 2px 5px aqua;}
+  20%{ text-shadow: 5px 2px 10px aqua;}
+  30%{ text-shadow: 5px 2px 15px aqua;}
+  40%{ text-shadow: 5px 2px 20px aqua;}
+  60%{ text-shadow: 5px 2px 30px aqua;}
+  80%{ text-shadow: 5px 2px 20px aqua;}
+  90%{ text-shadow: 5px 2px 15px aqua;}
+  100%{text-shadow: 5px 2px 5px aqua;}
+ 
+}
+@keyframes botao-neon{
+
+  10%{border-top: 2px solid white; }
+
+  30%{ border-right:2px solid white; }
+  
+  60%{border-bottom: 2px solid white;}
+ 
+  70%{border-left: 2px solid white;}
+
+  100%{box-shadow: 6px 6px 80px aqua;}
+ 
+ 
+ 
+}
+
+
+/*mosaico*/
+
+ul li img{
+  max-width: 300px;
+  height: 300px;
+  width: 100%;
+  
+}
+.mosaico li{
+display:inline-block;
+margin-left: 5%;
+
+}
+
+.mosaico li:hover{
+background-color:rgba(45, 236, 243, 0.8);
+padding: 5px 5px;
+cursor:pointer;
+animation-name: example2;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+transition: step-end; 
+
+}
+.mosaico img:hover{
+background-color:rgba(45, 236, 243, 0.8);
+opacity: 0.8;
+
+
+ 
+}
+
+.mosaico{
+width: 98%;
+position: relative;
+top: -1400px;
+left: 1%;
+
+background-color: rgba(0,0,0,0.2);
+border:4px solid aqua;
+padding:30px 0;
+animation-name: example3;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+transition: step-end;
+z-index: 2;
+
+
+}
+.mosaico h1{
+background-color: rgba(0,0,0,0.6);
+color: aqua;
+text-align: center;
+font-size: 35px;
+animation-name: example4;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+
+
+}
+
+/*formulario*/
+.formulario{
+  background-image: url(../imagem/placa.jpg);
+  background-attachment: fixed;
+  width: 100%;
+  height:1680px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -1400px;
+ 
+}
+form{
+display: inline-block;
+text-align: center;
+background-color: rgba(0,0,0,0.7);
+padding: 30px;
+position: relative;
+left: 30%;
+margin-top: 5%;
+padding: 2%;
+}
+.formulario label{
+line-height: 150%;
+font-size: 1.5em;
+font-family:  Arial, Helvetica, sans-serif;
+color:aqua;
+animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transition: step-end;
+
+}
+.formulario label:nth-of-type(2n+1){
+color:aqua;
+animation-name: formulario1;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+transition: 0.5s;
+  
+  
+}
+.formulario label:nth-of-type(2n){
+color:aqua;
+animation-name: formulario2;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+transition: 0.5s;
+  
+  
+}
+.formulario label:hover{
+
+color:white;
+}
+.formulario h1,.formulario h2{
+color: white;
+font-size: 2em;
+line-height: 150%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-transform: uppercase;
+text-shadow: 5px 2px 20px aqua;
+animation-name: formulario3;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+transition: 0.5s;
+}
+.formulario input[type=email],#nome_do_aluno,.formulario input[type=date],.formulario select{
+width: 40%;
+height: 30px;
+margin:3% 0;
+background-color: aqua;
+border: 2px soutset white;
+color:rgb(19, 7, 177);
+font-size: 1.2em;
+line-height: 150%;
+
+}
+input[type="checkbox"]{
+width: 5%;
+border: 20px solid aqua;
+}
+
+input[type="submit"]{
+font-size: 1.5em;
+margin: 3% 0;
+text-transform: uppercase;
+background: none;
+border: none;
+color: aqua;
+}
+input[type="submit"]:hover{
+padding: 2%;
+animation-name: botao-neon;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+transition: 5s;
+background-color: aqua;
+color:white;
+max-width: 400px;
+
+
+}
+
+footer{
+width: 100%;
+height: 50px;
+background-color: aqua;
+padding: 10px 0;
+
+}
+footer h3{
+color:white;
+font-size: 30px;
+line-height: 150%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align:center;
+}
+/*formatos de telas */
+@media (max-width: 1330px) { 
+/*efeito paralax*/
+.efeito-paralax-1{
+background-image: url(../imagem/binario.jpg);
+background-attachment: fixed;
+width: 100%;
+height:688px;
+
+
+}
+.efeito-paralax-2{
+background-image: url(../imagem/binario2.png);
+background-attachment: fixed;
+width: 100%;
+height:1880px;
+
+
+
+}
+
+/*mosaico*/
+
+.mosaico ul li img{
+max-width: 400px;
+height: 400px;
+width: 100%;
+
+
+}
+
+.mosaico li{
+display:inline-block;
+margin: 1% 1%;
+
+}
+.mosaico li:nth-of-type(1){
+position: relative;
+left: 10%;
+}
+.mosaico li:nth-of-type(3){
+position: relative;
+left: 30%;
+}
+.mosaico li:nth-of-type(2){
+position: relative;
+left: 10%;
+}
+
+
+.mosaico{
+width: 98%;
+position: relative;
+top: -1700px;
+left: 1%;
+
+background-color: rgba(0,0,0,0.2);
+border:4px solid aqua;
+padding:30px 0;
+animation-name: example3;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+transition: step-end;
+z-index: 2;
+
+
+}
+.mosaico h1{
+background-color: rgba(0,0,0,0.6);
+color: aqua;
+text-align: center;
+font-size: 35px;
+animation-name: example4;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+
+
+}
+
+/*formulario*/
+.formulario{
+background-image: url(../imagem/placa.jpg);
+background-attachment: fixed;
+width: 100%;
+height:1580px;
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: -1500px;
+
+}
+form{
+
+padding: 30px;
+position: relative;
+left: 20%;
+margin-top: 5%;
+padding: 2%;
+}
+.formulario label{
+line-height: 150%;
+font-size: 1.5em;
+font-family:  Arial, Helvetica, sans-serif;
+
+}
+
+
+.formulario label:hover{
+
+color:white;
+}
+.formulario h1,.formulario h2{
+color: white;
+font-size: 2em;
+line-height: 150%;
+
+text-shadow: 5px 2px 20px aqua;
+
+}
+.formulario input[type=email],#nome_do_aluno,.formulario input[type=date],.formulario select{
+width: 40%;
+height: 30px;
+margin:3% 0;
+background-color: aqua;
+border: 2px soutset white;
+color:rgb(19, 7, 177);
+font-size: 1.2em;
+line-height: 150%;
+
+}
+input[type="checkbox"]{
+width: 5%;
+border: 20px solid aqua;
+}
+
+input[type="submit"]{
+font-size: 1.5em;
+margin: 3% 0;
+
+}
+input[type="submit"]:hover{
+padding: 2%;
+
+color:white;
+max-width: 400px;
+
+
+}
+
+footer{
+width: 100%;
+height: 50px;
+background-color: aqua;
+padding: 10px 0;
+
+}
+footer h3{
+color:white;
+font-size: 30px;
+line-height: 150%;
+
+}
+
+
+}/*tela de 1330px*/
+
+/*tela de 1020px*/
+@media (max-width: 1024px) { 
+  /*efeito paralax*/
+.efeito-paralax-1{
+background-image: url(../imagem/binario.jpg);
+background-attachment: fixed;
+width: 100%;
+height:688px;
+
+
+}
+.efeito-paralax-2{
+background-image: url(../imagem/binario2.png);
+background-attachment: fixed;
+width: 100%;
+height:1880px;
+
+
+
+}
+
+/*mosaico*/
+
+.mosaico ul li img{
+max-width: 300px;
+height: 300px;
+width: 100%;
+
+
+}
+
+.mosaico li{
+display:inline-block;
+margin: 5px 1%;
+
+}
+.mosaico li:nth-of-type(1){
+position: relative;
+left: 7%;
+}
+.mosaico li:nth-of-type(3){
+position: relative;
+left: 35%;
+}
+.mosaico li:nth-of-type(2){
+position: relative;
+left: 7%;
+}
+
+
+.mosaico{
+width: 97%;
+position: relative;
+top: -1700px;
+left: 1%;
+
+}
+.mosaico h1{
+
+text-align: center;
+font-size: 35px;
+
+
+}
+
+/*formulario*/
+.formulario{
+background-image: url(../imagem/placa.jpg);
+background-attachment: fixed;
+width: 100%;
+height:1580px;
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: -1500px;
+
+}
+form{
+
+padding: 30px;
+position: relative;
+left: 20%;
+margin-top: 5%;
+padding: 2%;
+}
+.formulario label{
+line-height: 150%;
+font-size: 1.5em;
+font-family:  Arial, Helvetica, sans-serif;
+
+}
+
+
+.formulario label:hover{
+
+color:white;
+}
+.formulario h1,.formulario h2{
+color: white;
+font-size: 2em;
+line-height: 150%;
+
+text-shadow: 5px 2px 20px aqua;
+
+}
+.formulario input[type=email],#nome_do_aluno,.formulario input[type=date],.formulario select{
+width: 40%;
+height: 30px;
+margin:3% 0;
+font-size: 1.2em;
+line-height: 150%;
+
+}
+input[type="checkbox"]{
+width: 5%;
+
+}
+
+input[type="submit"]{
+font-size: 1.5em;
+margin: 3% 0;
+
+}
+input[type="submit"]:hover{
+padding: 2%;
+
+
+max-width: 400px;
+
+
+}
+
+footer{
+width: 100%;
+height: 50px;
+
+padding: 10px 0;
+
+}
+footer h3{
+
+font-size: 30px;
+line-height: 150%;
+
+}
+}
+
+
+/*tela de 1000px*/
+@media (max-width: 768px) { 
+  /*efeito paralax*/
+.efeito-paralax-1{
+background-image: url(../imagem/binario.jpg);
+background-attachment: fixed;
+width: 100%;
+height:688px;
+
+
+}
+.efeito-paralax-2{
+background-image: url(../imagem/binario2.png);
+background-attachment: fixed;
+width: 100%;
+height:1880px;
+
+
+
+}
+
+/*mosaico*/
+
+.mosaico ul li img{
+max-width: 300px;
+height: 300px;
+width: 100%;
+
+
+}
+
+.mosaico li{
+display:inline-block;
+margin: 5px 1%;
+
+}
+.mosaico li:nth-of-type(1){
+position: relative;
+left: 2%;
+}
+.mosaico li:nth-of-type(3){
+position: relative;
+left: 20%;
+}
+.mosaico li:nth-of-type(2){
+position: relative;
+left: 2%;
+}
+
+
+.mosaico{
+width: 97%;
+position: relative;
+top: -1700px;
+left: 1%;
+
+}
+.mosaico h1{
+
+text-align: center;
+font-size: 35px;
+
+
+}
+
+/*formulario*/
+.formulario{
+background-image: url(../imagem/placa.jpg);
+background-attachment: fixed;
+width: 100%;
+height:1580px;
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: -1500px;
+
+}
+form{
+
+padding: 30px;
+position: relative;
+left: 10%;
+margin-top: 5%;
+padding: 2%;
+}
+.formulario label{
+line-height: 150%;
+font-size: 1.5em;
+font-family:  Arial, Helvetica, sans-serif;
+
+}
+
+
+.formulario label:hover{
+
+color:white;
+}
+.formulario h1,.formulario h2{
+color: white;
+font-size: 2em;
+line-height: 150%;
+
+text-shadow: 5px 2px 20px aqua;
+
+}
+.formulario input[type=email],#nome_do_aluno,.formulario input[type=date],.formulario select{
+width: 40%;
+height: 30px;
+margin:3% 0;
+font-size: 1.2em;
+line-height: 150%;
+
+}
+input[type="checkbox"]{
+width: 5%;
+
+}
+
+input[type="submit"]{
+font-size: 1.5em;
+margin: 3% 0;
+
+}
+input[type="submit"]:hover{
+padding: 2%;
+
+
+max-width: 400px;
+
+
+}
+
+footer{
+width: 100%;
+height: 50px;
+
+padding: 10px 0;
+
+}
+footer h3{
+
+font-size: 30px;
+line-height: 150%;
+
+}
+}
+
+/*tela de 768*/
+
+
+
+/*tela 667*/
+
+@media (max-width: 667px) { 
+  /*efeito paralax*/
+.efeito-paralax-1{
+background-image: url(../imagem/binario.jpg);
+background-attachment: fixed;
+width: 100%;
+height:688px;
+
+
+}
+.efeito-paralax-2{
+background-image: url(../imagem/binario2.png);
+background-attachment: fixed;
+width: 100%;
+height:2080px;
+
+
+
+}
+
+/*mosaico*/
+
+.mosaico ul li img{
+max-width: 300px;
+height: 300px;
+width: 100%;
+
+
+}
+
+.mosaico li{
+display:inline-block;
+margin: 5px 1%;
+
+}
+.mosaico li:nth-of-type(1){
+position: relative;
+left: 20%;
+}
+.mosaico li:nth-of-type(3){
+position: relative;
+left: 20%;
+}
+.mosaico li:nth-of-type(2){
+position: relative;
+left: 20%;
+}
+
+
+.mosaico{
+width: 97%;
+position: relative;
+top: -2000px;
+left: 1%;
+
+}
+.mosaico h1{
+
+text-align: center;
+font-size: 35px;
+
+
+}
+
+/*formulario*/
+.formulario{
+background-image: url(../imagem/placa.jpg);
+background-attachment: fixed;
+
+width: 100%;
+height:1580px;
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: -1800px;
+
+}
+form{
+
+padding: 30px;
+position: relative;
+left: 10%;
+margin-top: 20%;
+padding: 2%;
+}
+.formulario label{
+line-height: 150%;
+font-size: 1em;
+font-family:  Arial, Helvetica, sans-serif;
+
+}
+
+
+.formulario label:hover{
+
+color:white;
+}
+.formulario h1,.formulario h2{
+color: white;
+font-size: 1.5em;
+line-height: 150%;
+
+text-shadow: 5px 2px 20px aqua;
+
+}
+.formulario input[type=email],#nome_do_aluno,.formulario input[type=date],.formulario select{
+width: 40%;
+height: 30px;
+margin:3% 0;
+font-size: 1em;
+line-height: 150%;
+
+}
+input[type="checkbox"]{
+width: 5%;
+
+}
+
+input[type="submit"]{
+font-size: 1em;
+margin: 3% 0;
+
+}
+input[type="submit"]:hover{
+padding: 2%;
+
+
+max-width: 400px;
+
+
+}
+
+footer{
+width: 100%;
+height: 50px;
+
+padding: 10px 0;
+
+}
+footer h3{
+
+font-size: 30px;
+line-height: 150%;
+
+}
+}
+
+
+
+@media (max-width: 478px) { 
+/*efeito paralax*/
+.efeito-paralax-1{
+background-image: url(../imagem/binario.jpg);
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height:688px;
+
+
+}
+.efeito-paralax-2{
+background-image: url(../imagem/binario2.png);
+background-attachment: fixed;
+background-size: cover;
+width: 100%;
+height:2080px;
+
+
+
+}
+
+
+/*mosaico*/
+
+.mosaico ul li img{
+max-width: 200px;
+height: 200px;
+width: 100%;
+
+
+}
+
+.mosaico li{
+display:inline-block;
+margin: 5px 1%;
+
+}
+.mosaico li:nth-of-type(1){
+position: relative;
+left: 20%;
+}
+.mosaico li:nth-of-type(3){
+position: relative;
+left: 0%;
+}
+.mosaico li:nth-of-type(2){
+position: relative;
+left: 20%;
+}
+
+
+.mosaico{
+width: 95%;
+position: relative;
+top: -1800px;
+left: 1%;
+
+
+}
+.mosaico h1{
+
+text-align: center;
+font-size: 35px;
+
+
+}
+
+/*formulario*/
+.formulario{
+background-image: url(../imagem/placa.jpg);
+background-attachment: fixed;
+width: 100%;
+height:1800px;
+background-size: cover;
+
+
+
+}
+form{
+
+padding: 0px;
+position: relative;
+left: 0%;
+margin-top: 20%;
+padding: 0%;
+}
+.formulario label{
+line-height: 150%;
+font-size: 1em;
+font-family:  Arial, Helvetica, sans-serif;
+
+}
+
+
+.formulario label:hover{
+
+color:white;
+}
+.formulario h1,.formulario h2{
+color: white;
+font-size: 1.5em;
+line-height: 150%;
+
+text-shadow: 5px 2px 20px aqua;
+
+}
+.formulario input[type=email],#nome_do_aluno,.formulario input[type=date],.formulario select{
+width: 40%;
+height: 30px;
+margin:3% 0;
+font-size: 1em;
+line-height: 150%;
+
+}
+input[type="checkbox"]{
+width: 5%;
+
+}
+
+input[type="submit"]{
+font-size: 1em;
+margin: 3% 0;
+
+}
+input[type="submit"]:hover{
+padding: 2%;
+
+
+max-width: 400px;
+
+
+}
+
+footer{
+width: 100%;
+height: 50px;
+
+padding: 10px 0;
+position: relative;
+top: 0px;
+}
+footer h3{
+
+font-size: 1.5em;
+line-height: 150%;
+
+}
+}
